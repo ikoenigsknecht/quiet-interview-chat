@@ -61,3 +61,5 @@ The second test loads a certain number of clients, connects clients in pairs, se
 * E2E tests are janky.  I would want to modify them to use a real framework and have true assertions but this was good enough to understand how things were operating for the time.
 * I wish I had written more code documentation.  I started down that path but kind of lost it as I was experimenting.
 * I would have liked to create a system diagram.
+* Error handling isn't great everywhere.
+* Retry/reconnection logic needs to be beefed up where its implemented and added where it doesn't exist.
