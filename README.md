@@ -25,19 +25,19 @@ _NOTE: I have three persistence engines (mostly) implemented: local, redis and c
 
 # Architecture
 
-## System Diagram
-
 ![Basic system diagram](docs/diagrams/basic_system_diag.png)
 
-## Chat Connect
+## Flows
+
+### Chat Connect
 
 ![Rough chat connect flow](docs/diagrams/chat_connect.png)
 
-## Send Message
+### Send Message
 
 ![Rough send message flow](docs/diagrams/new_message.png)
 
-## Send Message
+### Read Messages
 
 ![Rough read messages flow](docs/diagrams/read_messages.png)
 
