@@ -31,19 +31,19 @@ Unit tests are written with Jest and can be run like `yarn test`.
 
 I have written some basic E2E tests that test some functionality with "real" clients performing operations over the API. 
 
-# Performance
+## Performance
 
 The first test loads a certain number of clients, connects clients in pairs and does cycles of sending chunks of messages over the socket and reading messages.  Reading and writing are timed.
 
-## Running
+### Running
 
 `yarn init:env && yarn script:test-paired-clients`
 
-# Validity
+## Validity
 
 The second test loads a certain number of clients, connects clients in pairs, sends messages and then validates the messages read over the socket.
 
-## Running
+### Running
 
 `yarn init:env && yarn script:test-client-validity`
 
