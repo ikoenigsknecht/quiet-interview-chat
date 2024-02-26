@@ -1,0 +1,1 @@
+docker run --rm --network quiet-interview-chat_cassandra-quiet-chat-net -v "$(pwd)/cassandra.local.init.cql:/scripts/data.cql" -e CQLSH_HOST=cassandra-quiet-chat -e CQLSH_PORT=9042 -e CQLVERSION=3.4.6 nuvo/docker-cqlsh
