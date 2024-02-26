@@ -23,6 +23,24 @@ To run the application locally against docker you can run `yarn start:dev`.  Thi
 
 _NOTE: I have three persistence engines (mostly) implemented: local, redis and cassandra.  Redis is the most fleshed out but is slower than Cassandra.  You can switch between them by setting WS_MESSAGE_PERSISTENCE_ENGINE in .env to LOCAL, REDIS or CASSANDRA, respectively._
 
+# Architecture
+
+## System Diagram
+
+![Basic system diagram](docs/diagrams/basic_system_diag.png)
+
+## Chat Connect
+
+![Rough chat connect flow](docs/diagrams/chat_connect.png)
+
+## Send Message
+
+![Rough send message flow](docs/diagrams/new_message.png)
+
+## Send Message
+
+![Rough read messages flow](docs/diagrams/read_messages.png)
+
 # Unit Tests
 
 Unit tests are written with Jest and can be run like `yarn test`.
